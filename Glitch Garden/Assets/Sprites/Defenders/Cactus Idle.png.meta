@@ -1063,7 +1063,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Cactus Idle_7: -46614785
-      Cactus Idle_10: -1972802631
+      Cactus Idle_3: -62133479
       Cactus Idle_32: -304162050
       Cactus Idle_26: 258590072
       Cactus Idle_41: -236518234
@@ -1103,9 +1103,9 @@ TextureImporter:
       Cactus Idle_40: -28753821
       Cactus Idle_34: 944153992
       Cactus Idle_43: 75709976
-      Cactus Idle_3: -62133479
-      Cactus Idle_18: 513027670
+      Cactus Idle_10: -1972802631
       Cactus Idle_14: 726556136
+      Cactus Idle_18: 513027670
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
