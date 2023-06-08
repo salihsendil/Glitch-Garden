@@ -5,13 +5,15 @@ using UnityEngine;
 public class AttackerSpawner : MonoBehaviour
 {
     [SerializeField] Attacker attackerPrefab;
+    [SerializeField] float minSpawnTime = 1f;
+    [SerializeField] float maxSpawnTime = 5f;
     bool spawn = true;
 
     IEnumerator Start()
     {
         while (spawn)
         {
-            yield return new WaitForSeconds(Random.Range(1f, 5f));
+            yield return new WaitForSeconds(Random.Range(minSpawnTime, maxSpawnTime));
             SpawnAttacker();
         }
     }
