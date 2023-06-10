@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int health = 100;
+    [SerializeField] float health = 100;
     [SerializeField] GameObject deathVFX;
+    Attacker attacker;
 
-    public void DealDamage(int damage)
+    public void DealDamage(float damage)
     {
         health -= damage;
         if (health <= 0)
         {
             TriggerDeathVFX();
-            Destroy(gameObject);
+            Destroy(gameObject);            
         }
     }
     private void TriggerDeathVFX()

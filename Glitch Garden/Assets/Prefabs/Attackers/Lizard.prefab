@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 3062031591607880798}
   - component: {fileID: 3062031591607880792}
   - component: {fileID: 4394193364742629065}
-  - component: {fileID: 3553237815691082722}
+  - component: {fileID: 3129318955051383999}
   - component: {fileID: 3062031591607880797}
   - component: {fileID: 1941941576227717295}
+  - component: {fileID: 3499713299542155655}
   m_Layer: 6
   m_Name: Lizard
-  m_TagString: Enemies
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,8 +79,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &3553237815691082722
-CapsuleCollider2D:
+--- !u!61 &3129318955051383999
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,12 +89,22 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.55696964, y: 0.009545922}
-  m_Size: {x: 0.43770027, y: 0.85048795}
-  m_Direction: 0
+  m_Offset: {x: -0.5086651, y: 0.009271979}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34674644, y: 0.8454783}
+  m_EdgeRadius: 0
 --- !u!114 &3062031591607880797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +131,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 30
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+--- !u!114 &3499713299542155655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062031591607880793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623ca8ffdd5686e4ab4257e49697690f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5156235477065726956
 GameObject:
   m_ObjectHideFlags: 0

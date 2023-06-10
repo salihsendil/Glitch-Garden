@@ -17,7 +17,7 @@ public class LevelLoader : MonoBehaviour
         }
     }
 
-    void LoadNextScene()
+    public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
@@ -32,5 +32,9 @@ public class LevelLoader : MonoBehaviour
     {
         Debug.Log("quitting...");
         Application.Quit();
+    }
+
+    public void LoadGameOverScene(){
+        SceneManager.LoadScene("GameOver");
     }
 }

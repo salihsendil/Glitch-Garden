@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 6471129040640712889}
   - component: {fileID: 6471129040640712888}
   - component: {fileID: 6471129040640712871}
-  m_Layer: 0
+  - component: {fileID: 1837898526032919461}
+  m_Layer: 7
   m_Name: Gnome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,6 +111,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0080259, y: 1.0323364}
   m_EdgeRadius: 0
+--- !u!114 &1837898526032919461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471129040640712870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500fb80297718ce499366206cd562ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 0}
 --- !u!1 &6471129041666652143
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +134,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6471129041666652128}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6471129041804299638}
   - component: {fileID: 6471129041804299639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

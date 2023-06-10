@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
 {
-    [SerializeField] Attacker attackerPrefab;
+    [SerializeField] Attacker[] attackerPrefabArray;
     [SerializeField] float minSpawnTime = 1f;
     [SerializeField] float maxSpawnTime = 5f;
-    bool spawn = true;
+    public bool spawn = true;
 
     IEnumerator Start()
     {
@@ -17,14 +17,16 @@ public class AttackerSpawner : MonoBehaviour
             SpawnAttacker();
         }
     }
-    void SpawnAttacker()
+
+    void Spawn(Attacker myAttacker)
     {
-        Attacker newAttacker = 
-        Instantiate(attackerPrefab, transform.position, transform.rotation) as Attacker;
+        Attacker newAttacker =
+        Instantiate(myAttacker, transform.position, transform.rotation) as Attacker;
         newAttacker.transform.parent = transform;
     }
-    void Update()
+    void SpawnAttacker()
     {
-
+        var attackerIndex = Random.Range(0, attackerPrefabArray.Length);
+        Spawn(attackerPrefabArray[attackerIndex]);
     }
 }

@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 5319162872267616392}
   - component: {fileID: 8974730474958027793}
   - component: {fileID: 1039832512071115926}
+  - component: {fileID: 3339569222942860795}
   m_Layer: 7
   m_Name: Trophy
   m_TagString: Untagged
@@ -181,6 +182,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0152497, y: 1.0201449}
   m_EdgeRadius: 0
+--- !u!114 &3339569222942860795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5319162872267616391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500fb80297718ce499366206cd562ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  deathVFX: {fileID: 0}
 --- !u!1 &5319162872294598911
 GameObject:
   m_ObjectHideFlags: 0
