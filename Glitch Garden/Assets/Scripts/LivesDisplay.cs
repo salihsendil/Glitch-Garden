@@ -10,8 +10,6 @@ public class LivesDisplay : MonoBehaviour
     [SerializeField] int  damage = 1;
     Text livesText;
 
-    LevelLoader levelLoader;
-
     void Start()
     {
         livesText = GetComponent<Text>();
@@ -29,7 +27,7 @@ public class LivesDisplay : MonoBehaviour
         UpdateDisplay();
 
         if(lives<=0){
-            FindObjectOfType<LevelLoader>().LoadGameOverScene();
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
     }
 }

@@ -34,7 +34,20 @@ public class LevelLoader : MonoBehaviour
         Application.Quit();
     }
 
-    public void LoadGameOverScene(){
+    public void LoadGameOverScene()
+    {
         SceneManager.LoadScene("GameOver");
+    }
+    public void RestartScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        currentSceneIndex = 0;
+        LoadNextScene();
+
     }
 }

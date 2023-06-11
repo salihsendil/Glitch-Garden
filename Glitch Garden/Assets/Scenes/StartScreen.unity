@@ -248,7 +248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1661483867}
+      - m_Target: {fileID: 2093091127}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -590,10 +590,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1661483867 stripped
+--- !u!1001 &2093091126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175323920017517621, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      propertyPath: m_Name
+      value: Level Loader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+--- !u!114 &2093091127 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5175323920017517620, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-  m_PrefabInstance: {fileID: 5175323918389598063}
+  m_CorrespondingSourceObject: {fileID: 7095884565907496047, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+  m_PrefabInstance: {fileID: 2093091126}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -725,61 +782,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2095989884}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!1001 &5175323918389598063
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517619, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175323920017517621, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
-      propertyPath: m_Name
-      value: Level Loader
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f652d2f5e130e6b43b37f831832d00b2, type: 3}
+      m_Calls:
+      - m_Target: {fileID: 2093091127}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
