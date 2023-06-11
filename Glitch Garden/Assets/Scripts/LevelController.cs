@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,24 +6,31 @@ using UnityEngine.UI;
 
 public class LevelController : MonoBehaviour
 {
-    Slider gameTimer;
-    void Start()
+    int numberOfAttacker = 0;
+    bool levelTimerFinished = false;
+
+    public void AttackerSpawned()
     {
-        gameTimer = FindObjectOfType<GameTimer>().GetComponent<Slider>();
+        numberOfAttacker++;
+    }
+    public void AttackerKilled()
+    {
+        numberOfAttacker--;
+        if (numberOfAttacker <= 0 && levelTimerFinished){
+            Debug.Log("level ended");
+        }
+    }
+    public void LevelTimerFinished(){
+        levelTimerFinished = true;
+        StopSpawners();
     }
 
-    void Update()
+    private void StopSpawners()
     {
-        if(gameTimer.value==gameTimer.maxValue){
-            var spawners = FindObjectsOfType<AttackerSpawner>();
-            foreach(AttackerSpawner spawner in spawners){
-                spawner.spawn = false;
-            }
-            Debug.Log("spawners stopped");
-            var attackers = FindObjectsOfType<Attacker>();
-            if(attackers.Length <= Mathf.Epsilon){
-                Debug.Log("level end");
-            }
+        AttackerSpawner[] spawnerArray = FindObjectsOfType<AttackerSpawner>();
+        foreach(AttackerSpawner spawner in spawnerArray){
+            spawner.StopSpawning();
         }
     }
 }
+
