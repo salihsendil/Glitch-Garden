@@ -38,6 +38,10 @@ public class LevelLoader : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver");
     }
+    public void LoadOptionsScene()
+    {
+        SceneManager.LoadScene("OptionsScreen");
+    }
     public void RestartScene()
     {
         Time.timeScale = 1;
