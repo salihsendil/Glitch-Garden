@@ -47,5 +47,5 @@ MonoBehaviour:
   attackerPrefabArray:
   - {fileID: 4309478399404343358, guid: 65b53f8615af8c24884d1e89c11720d9, type: 3}
   - {fileID: 3062031591607880797, guid: d2055f8394fb1ae49816ec8a940cc84b, type: 3}
-  minSpawnTime: 5
-  maxSpawnTime: 9
+  minSpawnTime: 2
+  maxSpawnTime: 5

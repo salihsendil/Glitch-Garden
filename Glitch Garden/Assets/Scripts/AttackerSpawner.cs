@@ -17,9 +17,9 @@ public class AttackerSpawner : MonoBehaviour
             SpawnAttacker();
         }
     }
-
     public void StopSpawning(){
         spawn = false;
+        StopCoroutine(Start());
     }
     void Spawn(Attacker myAttacker)
     {

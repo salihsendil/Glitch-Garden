@@ -8,7 +8,7 @@ public class LevelController : MonoBehaviour
 {
     [SerializeField] GameObject winLabel;
     [SerializeField] GameObject loseLabel;
-    float waitToLoad = 10f;
+    float waitToLoad = 100f;
     int numberOfAttacker = 0;
     bool levelTimerFinished = false;
 

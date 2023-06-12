@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d942fc55bf359041a5b13b5519d8ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 9035768183895821021, guid: 228c127c69554b245ac76b76622c6359, type: 3}
+  defenderPrefab: {fileID: 6471129040640712890, guid: 66ce8cdf7023e814182aa4a8465a87c2, type: 3}
 --- !u!1 &4759393699742127181
 GameObject:
   m_ObjectHideFlags: 0

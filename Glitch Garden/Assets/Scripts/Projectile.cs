@@ -6,10 +6,12 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] float speed = 8f;
     [SerializeField] int damage = 50;
+    float destroyDelay = 5f;
 
     void Update()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
+        Destroy(gameObject, destroyDelay);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

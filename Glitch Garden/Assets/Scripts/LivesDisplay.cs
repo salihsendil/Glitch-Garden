@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class LivesDisplay : MonoBehaviour
 {
-    [SerializeField] int lives = 1;
+    [SerializeField] float baseLives = 5;
     [SerializeField] int  damage = 1;
+    float lives = 1;
     Text livesText;
 
     void Start()
     {
+        lives = baseLives - PlayerPrefsController.GetDifficulty();
         livesText = GetComponent<Text>();
         UpdateDisplay();
     }
