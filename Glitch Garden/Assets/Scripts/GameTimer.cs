@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour
 {
     [Tooltip("Our level timer in Seconds")]
-    [SerializeField] float levelTime = 10f;
+    [SerializeField] float levelTime = 100f;
     bool triggerLevelFinished = false;
 
     private void Update()

@@ -7,17 +7,25 @@ public class AttackerSpawner : MonoBehaviour
     [SerializeField] Attacker[] attackerPrefabArray;
     [SerializeField] float minSpawnTime = 1f;
     [SerializeField] float maxSpawnTime = 5f;
+    [SerializeField] float delayToFirstSpawn = 20f;
     bool spawn = true;
+    bool delayToSpawn = true;
 
     IEnumerator Start()
     {
         while (spawn)
         {
+            if (delayToSpawn)
+            {
+                yield return new WaitForSeconds(delayToFirstSpawn);
+                delayToSpawn = false;
+            }
             yield return new WaitForSeconds(Random.Range(minSpawnTime, maxSpawnTime));
             SpawnAttacker();
         }
     }
-    public void StopSpawning(){
+    public void StopSpawning()
+    {
         spawn = false;
         StopCoroutine(Start());
     }
