@@ -195,15 +195,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
@@ -264,11 +264,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
@@ -343,15 +343,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
@@ -531,15 +531,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
@@ -605,15 +605,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
@@ -991,7 +991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1529444622, guid: 1c640f5fd30921149bce2e3272bdb6ca, type: 3}
       propertyPath: stars
-      value: 200
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 4335361657902060058, guid: 1c640f5fd30921149bce2e3272bdb6ca, type: 3}
       propertyPath: m_Pivot.x

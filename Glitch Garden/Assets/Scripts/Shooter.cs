@@ -5,15 +5,16 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-    [SerializeField] GameObject projectile, gun;
+    [SerializeField] GameObject projectile;
+    [SerializeField] GameObject gun;
     GameObject projectileParent;
     AttackerSpawner myLaneSpawner;
     Animator animator;
     const string PROJECTILE_PARENT_NAME = "Projectiles";
 
     private void Start() {
-        SetLaneSpawner();
         animator = GetComponent<Animator>();
+        SetLaneSpawner();
         CreateProjectileParent();
     }
 

@@ -195,15 +195,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -276,15 +276,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -367,15 +367,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -567,15 +567,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -653,15 +653,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: maxSpawnTime
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: minSpawnTime
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: delayToFirstSpawn
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 175847666747227013, guid: bc0f34d33081a9546950eeb91c64b0c1, type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -1154,13 +1154,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1924131404001931259, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -94
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759393700111451461, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.002
+    - target: {fileID: 4759393700111451462, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4759393701239873547, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}
       propertyPath: m_RootOrder
@@ -1209,10 +1205,6 @@ PrefabInstance:
     - target: {fileID: 4759393701239873781, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}
       propertyPath: m_Name
       value: Buttons
-      objectReference: {fileID: 0}
-    - target: {fileID: 6484135245272357551, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82c4086ceb2a29d4a94ccf424a6536fb, type: 3}

@@ -503,7 +503,7 @@ Transform:
   - {fileID: 498104511}
   - {fileID: 1296116491}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1667998337 stripped
 GameObject:
@@ -751,7 +751,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699597665689909314, guid: 5617b9f9228e2b84c9b838e71ed5c649, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1699597665689909314, guid: 5617b9f9228e2b84c9b838e71ed5c649, type: 3}
       propertyPath: m_LocalPosition.x
@@ -853,6 +853,18 @@ PrefabInstance:
     - target: {fileID: 2042733596600311224, guid: 3d7d85a5eec33e048bc3391b7052814e, type: 3}
       propertyPath: m_Name
       value: Game Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042733596600311227, guid: 3d7d85a5eec33e048bc3391b7052814e, type: 3}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042733596600311227, guid: 3d7d85a5eec33e048bc3391b7052814e, type: 3}
+      propertyPath: near clip plane
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042733596600311227, guid: 3d7d85a5eec33e048bc3391b7052814e, type: 3}
+      propertyPath: orthographic size
+      value: 3.375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d7d85a5eec33e048bc3391b7052814e, type: 3}
@@ -1226,6 +1238,10 @@ PrefabInstance:
     - target: {fileID: 2221213776913588622, guid: 1c1cce1ccb672224ebd9cb1cf86005dd, type: 3}
       propertyPath: m_Name
       value: LevelCompleteCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221213776913588622, guid: 1c1cce1ccb672224ebd9cb1cf86005dd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6091356479173722440, guid: 1c1cce1ccb672224ebd9cb1cf86005dd, type: 3}
       propertyPath: m_Pivot.x
